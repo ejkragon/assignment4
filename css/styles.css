@@ -7,6 +7,7 @@
 * {
   border: 0;
   box-sizing: border-box;
+  font-size: 18pt;
   margin: 0;
   padding: 0;
 }
@@ -25,6 +26,7 @@ body {
 .menu {
   margin: 0 auto;
   max-width: 100%;
+  text-align: center;
 }
 
 .menu ul {
@@ -38,7 +40,7 @@ body {
   margin-bottom: 1px;
   position: relative;
   vertical-align: top;
-  width: 25%;
+  width: 24%;
 }
 
 .menu ul li a {
@@ -46,28 +48,42 @@ body {
   display: block;
   padding: 15px;
   text-decoration: none;
-  transition: .3s;
+  transition: .5s;
 }
 
 .menu ul li a:hover {
   background: #231f20;
   color: #f7ec13;
-  transition: .3s
+  transition: .5s
 }
 
-.submenu {
+.sub-menu {
   display: none;
 }
 
-.menu-item:hover .submenu {
+.menu-item:hover .sub-menu {
   background: #231f20;
   display: block;
   position: absolute;
   top: 50px;
-  width: 100%
+  width: 100%;
 }
 
 .menu svg {
   position: relative;
-  top: 2px;
+  top: 12px;
+}
+
+
+/*=====================================================
+
+  ad
+
+======================================================*/
+
+.ad {
+  bottom: 30px;
+  position: fixed;
+  right: 10px;
+  width: 500px;
 }
