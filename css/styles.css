@@ -23,8 +23,11 @@ body {
 
 ========================================================*/
 
-.logo-container {
-  vertical-align: middle;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
 
 .menu {
@@ -100,6 +103,28 @@ body {
   width: 250px;
 }
 
+/*=====================================================
+
+  Gallery
+
+======================================================*/
+
+.top-row {
+  position: absolute;
+  right: 0;
+  top: 260px;
+  width: 325px;
+  animation: right-left 5s forwards infinite linear; animation-direction: normal;
+}
+
+@keyframes right-left {
+  from {
+    transform: translateX(1500px);
+  }
+  to{
+    transform: translateX(-200px);
+  }
+}
 
 /*=====================================================
 
