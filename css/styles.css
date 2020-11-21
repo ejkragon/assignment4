@@ -13,7 +13,6 @@
 
 body {
   background: #ffffff;
-  color: #414042;
   font-family: 'Open Sans', sans-serif;
   }
 
@@ -22,3 +21,53 @@ body {
   nav bar / menu styling
 
 ========================================================*/
+
+.menu {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.menu ul {
+  background: #683695;
+  list-style: none;
+}
+
+.menu > ul > li {
+  background: #683695;
+  display: inline-block;
+  margin-bottom: 1px;
+  position: relative;
+  vertical-align: top;
+  width: 25%;
+}
+
+.menu ul li a {
+  color: #ffffff;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.menu ul li a:hover {
+  background: #231f20;
+  color: #f7ec13;
+  transition: .3s
+}
+
+.submenu {
+  display: none;
+}
+
+.menu-item:hover .submenu {
+  background: #231f20;
+  display: block;
+  position: absolute;
+  top: 50px;
+  width: 100%
+}
+
+.menu svg {
+  position: relative;
+  top: 2px;
+}
