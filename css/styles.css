@@ -87,8 +87,23 @@ body {
 
 =======================================================*/
 
+h1,
+h2 {
+  color: #3953a4;
+}
+
 .index {
   margin-top: 260px;
+}
+
+.index,
+.about {
+  color: #6d6e71;
+  margin-right: 28%
+}
+
+.about {
+  padding-top: 30px;
 }
 
 .red-italics {
