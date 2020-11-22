@@ -87,6 +87,10 @@ body {
 
 =======================================================*/
 
+.index {
+  margin-top: 260px;
+}
+
 .red-italics {
   color: #ed2024;
   font-size: 24px;
@@ -114,15 +118,15 @@ body {
   right: 0;
   top: 260px;
   width: 325px;
-  animation: right-left 5s forwards infinite linear; animation-direction: normal;
+  animation: right-left 10s linear infinite normal;
 }
 
 @keyframes right-left {
   from {
-    transform: translateX(1500px);
+    left: 120%;
   }
   to{
-    transform: translateX(-200px);
+    left: -20%;
   }
 }
 
